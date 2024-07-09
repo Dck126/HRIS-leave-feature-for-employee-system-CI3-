@@ -1,4 +1,51 @@
 ###################
+Run CI3
+###################
+
+###################
+Copy Command : git clone https://github.com/Dck126/CI3.git
+###################
+
+###################
+Jika anda menggunakan XAMPP baik itu di OS Win/Linux, paste kedalam folder /htdocs
+###################
+
+###################
+Import DB hris_db.sql, ke mysql anda
+###################
+
+
+###################
+-- Terdapat fitur tambah data Karyawan
+-- Terdapat fitur tambah data Quota Karyawan
+-- [Issue] Untuk Google Maps masih ada sedikit kesalahan, karna saat saya ingin mengambil API KEY di Google Cloud Console terjadi Error.  (currently in progress) 
+###################
+
+
+###################
+Success Task
+
+Task 1: Database Setup
+
+1. Create the `employees`  `departments`  `leaves` and  `leave_quotas` tables** using the provided schema.
+
+Task 2: Leave Request Feature
+
+1. Request Leave: Implement a form for employees to request leave. The form should include fields for start date, end date, location (using Google Maps), and a submit button.
+2. Check Leave Quota Before Request: Add validation to check if the employee has enough leave quota before allowing them to submit a leave request.
+3. Bypass Holiday Dates: Implement logic to bypass holiday dates when calculating the leave duration.
+4. View Leave Requests: Create a view to list all leave requests for an employee, showing the status of each request.
+
+Task 3: Leave Quota Checking
+
+1. Check Leave Quota: Implement functionality to check the remaining leave quota for an employee.
+2. Update Leave Quota: Automatically update the leave quota when a leave requested.
+###################
+
+
+
+
+###################
 What is CodeIgniter
 ###################
 
