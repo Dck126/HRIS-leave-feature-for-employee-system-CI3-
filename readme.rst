@@ -16,9 +16,9 @@ Import DB hris_db.sql, ke mysql anda
 
 
 ###################
--- Terdapat fitur tambah data Karyawan
--- Terdapat fitur tambah data Quota Karyawan
--- [Issue] Untuk Google Maps masih ada sedikit kesalahan, karna saat saya ingin mengambil API KEY di Google Cloud Console terjadi Error.
+-- There is a feature to add Employee data
+-- There is a feature to add Employee Quota data
+-- [Issue] For Google Maps there is still a slight error, because when I want to retrieve the API KEY in Google Cloud Console an error occurs.
 ###################
 
 
